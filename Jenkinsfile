@@ -14,5 +14,10 @@ pipeline {
 echo "Hello Pipeline!!"'''
       }
     }
+    stage('Stage3') {
+      steps {
+        echo 'Stage 3 test'
+      }
+    }
   }
 }
